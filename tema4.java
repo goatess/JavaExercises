@@ -4,6 +4,7 @@ public class Main {
        int numeroIf = 0;
        int numeroWhile = 0;
        int numeroFor = 0;
+       var estacion = "primavera";
 
        if (numeroIf > 0) {
            System.out.println(numeroIf);
@@ -24,14 +25,29 @@ public class Main {
        } while (numeroWhile < 3); 
         System.out.println(numeroWhile);
 
-       for
+       for (;numeroFor <= 3; numeroFor = numeroFor + 1) {
+          System.out.println(numeroFor);
+       }
 
-       switch (key) {
-           case value:
-               
+       switch (estacion) {
+           case "primavera":
+             System.out.println("Es primavera");
                break;
+             
+           case "verano":
+             System.out.println("Es verano");
+               break;
+           
+           case "invierno":
+             System.out.println("Es invierno");
+               break;
+             
+           case "otoño":
+             System.out.println("Es otoño");
+               break;  
        
            default:
+             System.out.println("No es una estacion");
                break;
        }
            
